@@ -1,0 +1,24 @@
+# Шляхи до даних
+data:
+  img_dir: "../data/FracAtlas/images"
+  mask_dir: "../data/FracAtlas/masks"
+  train_split: "../data/FracAtlas/Utilities/Fracture Split/train.csv"
+  valid_split: "../data/FracAtlas/Utilities/Fracture Split/valid.csv"
+  test_split: "../data/FracAtlas/Utilities/Fracture Split/test.csv"
+  dataset_csv: "../data/FracAtlas/dataset.csv"
+
+# Налаштування для Етапу 1 (Класифікація)
+classifier:
+  batch_size: 32
+  learning_rate: 0.001
+  num_epochs: 5
+
+# Налаштування для Етапу 2 (Сегментація)
+segmenter:
+  batch_size: 4 # RTX 3050 4GB: 512x512 з ResNet50 encoder
+  learning_rate: 0.0005 # Трохи зменшуємо кроки навчання для стабільності
+  num_epochs: 50 # Ставимо 20 епох для повноцінного навчання
+
+# Загальні налаштування
+system:
+  device: "cuda"
