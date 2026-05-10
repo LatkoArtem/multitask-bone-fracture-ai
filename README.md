@@ -437,3 +437,11 @@ $$\min_{\theta, \phi} \quad \mathcal{L}_{total} = \underbrace{\lambda_1 \mathcal
 3. Liu Z., Mao H., Wu C.-Y. et al. _A ConvNet for the 2020s._ CVPR, 2022. arXiv:2201.03545
 4. Caruana R. _Multitask Learning._ Machine Learning, 28(1), 41–75, 1997. DOI: 10.1023/A:1007379606734
 5. Ronneberger O., Fischer P., Brox T. _U-Net: Convolutional Networks for Biomedical Image Segmentation._ MICCAI, 2015. arXiv:1505.04597
+
+---
+
+## Посилання на датасет та моделі (.pth)
+
+Датасет: https://www.kaggle.com/datasets/akshayramakrishnan28/fracture-classification-dataset
+
+Моделі: https://drive.google.com/drive/folders/12xBrGNI7BdlwKPXDO2MbMS25_TzWwuTd?usp=sharing
